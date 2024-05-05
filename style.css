@@ -111,7 +111,7 @@ body {
   transform: translateZ(0px);
 }
 .book .first .page {
-  background: #ef9a9a;
+  background: #E91E63;
 }
 .book .first .page.front:after {
   position: absolute;
@@ -125,10 +125,10 @@ body {
 .book .paper .back {
   transition: transform 1s;
   transform-origin: 0 50%;
-  background: #e1e1e1;
+  background: #acacac;
 }
 .book .first.paper .back {
-  background: #ef9a9a;
+  background: #E91E63;
 }
 
 /* Introdução */
@@ -225,8 +225,8 @@ body {
 }
 #link {
   position: absolute;
-  bottom: 10px;
-  right: 10px;
+  bottom: 67px;
+  right: -65px;
   color: #615858;
   letter-spacing: 2px;
   text-decoration: none;
@@ -243,5 +243,8 @@ body {
 @media (max-width: 768px) {
     .book {
       width: 100%; /* Define a largura do livro como 100% para dispositivos móveis */
+    }
+    body{
+      font-size: 10px;
     }
   }
