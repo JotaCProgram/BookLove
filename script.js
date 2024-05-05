@@ -1,7 +1,7 @@
 var winWidth = $(window).width();
 var ratio = winWidth / 1920;
 var fontSize = {
-  small: 12,
+  small: 9,
   medium: 14
 };
 var played = [];
@@ -18,7 +18,7 @@ vara[0] = new Vara(
       text: "Best",
       textAlign: "right",
       y: 20,
-      x: -30,
+      x: -40,
       delay: 500,
       duration: 1500,
       fontSize: fontSize.small
@@ -39,7 +39,7 @@ vara[0] = new Vara(
     {
       text: "Obrigado por existir!",
       id: "end",
-      color: "#b52222",
+      color: "#E91E63",
       delay: 1000,
       x: posX,
       duration: 4500
@@ -56,11 +56,11 @@ vara[1] = new Vara(
   "https://rawcdn.githack.com/akzhy/Vara/ed6ab92fdf196596266ae76867c415fa659eb348/fonts/Satisfy/SatisfySL.json",
   [
     {
-      text: "Voce",
+      text: "❤",
       textAlign: "right",
       delay: 500,
       y: 20,
-      x: -30,
+      x: -40,
       duration: 1500,
       fontSize: fontSize.small
     },
@@ -71,15 +71,22 @@ vara[1] = new Vara(
       duration: 4000
     },
     {
-      text: "engracada, energia contagiante, forte, uma pessoa que me faz feliz!",
+      text: "engracada, energia contagiante, forte, o seu sorriso me encanta.",
       y: 40,
       x: posX,
+      duration: 3500
+    },
+    {
+      text: "Lembre-se, voce e importante, meio raio de sol.",
+      y: 40,
+      x: posX,
+      color: "#E91E63",
       duration: 3500
     }
   ],
   {
     strokeWidth: 2,
-    fontSize: fontSize.medium,
+    fontSize: fontSize.small,
     autoAnimation: false
   }
 );
@@ -92,7 +99,7 @@ vara[2] = new Vara(
       textAlign: "right",
       delay: 500,
       y: 20,
-      x: -30,
+      x: -40,
       duration: 1500,
       fontSize: fontSize.small
     },
@@ -108,18 +115,24 @@ vara[2] = new Vara(
       x: posX,
       duration: 3500
     },
+     {
+      text: "Um dia, quero esta contigo e te da um abraco, apertado. ",
+      y: 20,
+      x: posX,
+      duration: 3500
+    },
     {
       text: "Obrigado, Love You!",
-      y: 10,
-      color: "#b52222",
+      y: 23,
+      color: "#E91E63",
       id: "link",
       x: posX,
       duration: 1500
-    }
+    },
   ],
   {
     strokeWidth: 2,
-    fontSize: fontSize.medium,
+    fontSize: fontSize.small,
     autoAnimation: false
   }
 );
