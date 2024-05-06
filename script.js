@@ -104,7 +104,7 @@ vara[2] = new Vara(
       fontSize: fontSize.small
     },
     {
-      text: "Voce vai sempre morar no meu peito.",
+      text: "Voce vai sempre morar no meu coracao.",
       y: 40,
       x: posX,
       duration: 4000
