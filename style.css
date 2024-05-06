@@ -225,11 +225,13 @@ body {
 }
 #link {
   position: absolute;
-  bottom: 67px;
-  right: -65px;
+  bottom: 21px;
+  left: 89px;
+  margin-left: 156px;
   color: #615858;
   letter-spacing: 2px;
   text-decoration: none;
+  z-index: 1;
 }
 
 /* Media Query */
