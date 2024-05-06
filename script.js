@@ -56,7 +56,7 @@ vara[1] = new Vara(
   "https://rawcdn.githack.com/akzhy/Vara/ed6ab92fdf196596266ae76867c415fa659eb348/fonts/Satisfy/SatisfySL.json",
   [
     {
-      text: "❤",
+      text: "Simplismente voce",
       textAlign: "right",
       delay: 500,
       y: 20,
